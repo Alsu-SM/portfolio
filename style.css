@@ -143,7 +143,7 @@ hr {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: #95e1d3;
   position: absolute;
   top: 100%;
   left: 0;
@@ -335,21 +335,7 @@ hr {
   opacity: 1;
 }
 .card_image {
-  background: linear-gradient(
-    to top right,
-    rgb(0, 0, 0),
-    rgb(23, 23, 23),
-    rgb(46, 46, 46),
-    rgb(70, 70, 70),
-    rgb(93, 93, 93),
-    rgb(116, 116, 116),
-    rgb(139, 139, 139),
-    rgb(162, 162, 162),
-    rgb(185, 185, 185),
-    rgb(209, 209, 209),
-    rgb(232, 232, 232),
-    rgb(255, 255, 255)
-  );
+  background: linear-gradient(to top right, rgb(94, 198, 204), rgb(102, 197, 202), rgb(109, 195, 200), rgb(117, 194, 199), rgb(124, 193, 197), rgb(132, 192, 195), rgb(139, 190, 193), rgb(147, 189, 191), rgb(154, 188, 189), rgb(162, 187, 188), rgb(169, 185, 186), rgb(177, 184, 184));
   width: 380px;
   height: 250px;
 
@@ -553,6 +539,10 @@ hr {
   text-transform: uppercase;
 }
 
+.skill-star {
+  color: #95e1d3;
+  font-size: 25px;
+}
 /* Reviews */
 
 .reviews {
