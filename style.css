@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding-bottom: 20px;
 
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
@@ -32,6 +33,12 @@ hr {
   margin: 50px 0;
 }
 
+.portfolio-logo {
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 80px;
+}
 /*Container*/
 
 .container {
@@ -115,6 +122,12 @@ hr {
   font-size: 30px;
 }
 
+.header-logo-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #95e1d3;
+}
 /* Nav */
 
 .nav {
@@ -335,7 +348,21 @@ hr {
   opacity: 1;
 }
 .card_image {
-  background: linear-gradient(to top right, rgb(94, 198, 204), rgb(102, 197, 202), rgb(109, 195, 200), rgb(117, 194, 199), rgb(124, 193, 197), rgb(132, 192, 195), rgb(139, 190, 193), rgb(147, 189, 191), rgb(154, 188, 189), rgb(162, 187, 188), rgb(169, 185, 186), rgb(177, 184, 184));
+  background: linear-gradient(
+    to top right,
+    rgb(94, 198, 204),
+    rgb(102, 197, 202),
+    rgb(109, 195, 200),
+    rgb(117, 194, 199),
+    rgb(124, 193, 197),
+    rgb(132, 192, 195),
+    rgb(139, 190, 193),
+    rgb(147, 189, 191),
+    rgb(154, 188, 189),
+    rgb(162, 187, 188),
+    rgb(169, 185, 186),
+    rgb(177, 184, 184)
+  );
   width: 380px;
   height: 250px;
 
@@ -1150,6 +1177,36 @@ hr {
   color: #f38181;
 }
 
+.contacts {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contacts-icons {
+  color: #999;
+  font-size: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.contacts-icons:hover {
+  color: #95e1d3;
+}
+.contacts-line:hover {
+  color: #95e1d3;
+  font-weight: bold;
+}
+
+.contacts-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.last {
+  margin-top: 80px;
+}
 /* Медиа-запросы */
 
 @media (max-width: 1230px) {
